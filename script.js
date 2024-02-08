@@ -2,7 +2,7 @@ let text = document.querySelector("#text");
 let result_Div = document.getElementById("result");
 
 
-let apiUrl = 'http://192.168.20.212:3000/api/chat';
+let apiUrl = 'https://192.168.20.212:3000/api/chat';
 
 // Пример POST-запроса с использованием Fetch API
 function sendPostRequest(userInput) {
